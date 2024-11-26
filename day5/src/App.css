@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .App{
+    padding: 30px;
+    background-color: #F1F3F6;
+  }
+  h1{
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .login,.signup{
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-left: 20%;
+    box-shadow: 0 0 10px 0 rgb(195, 195, 195);
+    background-color: white;
+  }
+  .logA,.signA{
+    height: 100%;
+    background-color: #2874F0;
+    width: 40%;
+    padding: 30px;
+    color: white;
+    /* position: relative; */
+  }
+  .logA p,.signA p{
+    color: rgb(222, 221, 221);
+    margin-top: 30px;
+  }
+  .logA img,.signA img{
+    margin-top: 45%;
+    margin-left: 10%;
+  }
+  .logB,.signB{
+    padding: 20px;
+    width: 60%;
+    position: relative;
+  }
+  .logB input,.signB input{
+    border: none;
+    border-bottom: 1px solid rgb(220, 220, 220);
+    height: 30px;
+    width: 80%;
+    margin-top: 10%;
+  }
+  .logB p,.signB p{
+    font-size: 12px;
+    color: gray;
+    margin-top: 20px;
+  }
+  .submit{
+    height: 50px;
+    width: 100%;
+    margin-top: 30px;
+    color: white;
+    background-color: #FB641B;
+    border: none;
+  }
+  .loginbutton{
+    background: none;
+    border: none;
+    color: #2874F0;
+    position: absolute;
+    bottom: 25px;
+    left: 25%;
+    font-weight: bold;
+  }
+  .signupbutton{
+    width: 100%;
+    background: none;
+    border: none;
+    box-shadow: 2px 2px 2px 2px rgb(221, 221, 221);
+    height: 50px;
+    margin-top: 20px;
+    color: #2874F0;
+  }
+  
+  footer p,a{
+    font-size: 13px;
+  }
