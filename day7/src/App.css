@@ -1,0 +1,39 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+
+.main{
+  width: 100%;
+  height: auto;
+  /* border: 1px solid red; */
+}
+
+
+
+
+h1{
+  font-size: 28px;
+  font-weight: bold;
+}
+
+footer p,a{
+  font-size: 13px;
+}
+input:focus, select:focus {
+  outline: none;       
+  border-top: none;         
+  border-left: none;
+  border-right: none;
+}
+
+
+
+.ss1:hover{
+  color:  #FB641B;
+  cursor: pointer;
+  padding-bottom:10px;
+  text-decoration: underline;
+}
