@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#main{
+  height: 300px;
+  width: 25%;
+  border: 2px solid black ;
+  margin-left: 35%;
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+input{
+  height: 30px;
+  width: 220px;
+  background: bisque;
+  border: none;
+  padding-left: 10px;
+  border-radius: 10px 0px 10px 0px;
+  color: black;
+  font-family: sans-serif;
+} 
